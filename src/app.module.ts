@@ -26,6 +26,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
     
     */
 
+    //不行的时候新建一个localhost连接
     TypeOrmModule.forRoot({
       type: 'mysql',
       host: '127.0.0.1',
